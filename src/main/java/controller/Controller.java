@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import controller.command.Command;
+import controller.command.Login;
+import controller.command.Registration;
+import controller.command.student.StudentPage;
 
 @WebServlet(urlPatterns = "/")
 public class Controller extends HttpServlet {
@@ -20,6 +23,9 @@ public class Controller extends HttpServlet {
     @Override
     public void init(ServletConfig servletConfig){
     	commands.put("/", (req) -> "/login.jsp");
+    	commands.put("/registration", new Registration());
+		commands.put("/login", new Login());
+		commands.put("/student", new StudentPage());
     }
 
     @Override
