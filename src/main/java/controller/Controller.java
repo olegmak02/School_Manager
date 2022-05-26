@@ -26,6 +26,16 @@ public class Controller extends HttpServlet {
     	commands.put("/registration", new Registration());
 		commands.put("/login", new Login());
 		commands.put("/student", new StudentPage());
+		commands.put("/my_courses", new MyCourses());
+		commands.put("/courses", new Courses());
+		commands.put("/course", new CoursePage());
+		commands.put("/logout", new Logout());
+		commands.put("/other_courses", new OtherCourses());
+		commands.put("/course_registration", new CourseRegistrationPage());
+		commands.put("/success_registration", new SuccessRegistration());
+		commands.put("/instructor", new InstructorPage());
+		commands.put("/result_course", new CoursePage());
+		commands.put("/instructor_courses", new InstructorCourses());
     }
 
     @Override
