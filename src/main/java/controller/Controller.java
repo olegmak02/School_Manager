@@ -11,10 +11,27 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import controller.command.AdminPage;
+import controller.command.Block;
 import controller.command.Command;
+import controller.command.Courses;
+import controller.command.CoursesList;
+import controller.command.CreateCourse;
+import controller.command.DeleteCourse;
+import controller.command.EditCourse;
 import controller.command.Login;
+import controller.command.Logout;
 import controller.command.Registration;
+import controller.command.SuccessInstructorRegistration;
+import controller.command.Unblock;
+import controller.command.instructor.CoursePage;
+import controller.command.instructor.InstructorCourses;
+import controller.command.instructor.InstructorPage;
+import controller.command.student.CourseRegistrationPage;
+import controller.command.student.MyCourses;
+import controller.command.student.OtherCourses;
 import controller.command.student.StudentPage;
+import controller.command.student.SuccessRegistration;
 
 @WebServlet(urlPatterns = "/")
 public class Controller extends HttpServlet {

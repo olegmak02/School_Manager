@@ -6,7 +6,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import domain.Student;
-import service.logic.StudentServiceImpl;
+import service.StudentServiceImpl;
 
 public class Unblock implements Command {
 

@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 
 import domain.Course;
 import domain.Instructor;
-import service.logic.CourseServiceImpl;
-import service.logic.InstructorServiceImpl;
+import service.CourseServiceImpl;
+import service.InstructorServiceImpl;
 import util.Validation;
 
 public class EditCourse implements Command {

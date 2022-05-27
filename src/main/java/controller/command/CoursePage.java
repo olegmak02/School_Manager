@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import javax.servlet.http.HttpServletRequest;
 
 import domain.Course;
-import service.logic.CourseServiceImpl;
+import service.CourseServiceImpl;
 import util.SessionManager;
 
 public class CoursePage implements Command{

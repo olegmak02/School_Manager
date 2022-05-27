@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import domain.Course;
 import domain.Student;
-import service.logic.CourseServiceImpl;
+import service.CourseServiceImpl;
 
 public class OtherCourses implements Command {
 	private CourseServiceImpl courseService = new CourseServiceImpl();

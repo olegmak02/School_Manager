@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import domain.Assignment;
 import domain.Course;
 import domain.Student;
-import service.logic.AssignmentServiceImpl;
-import service.logic.CourseServiceImpl;
+import service.AssignmentServiceImpl;
+import service.CourseServiceImpl;
 import util.SessionManager;
 
 public class SuccessRegistration implements Command {

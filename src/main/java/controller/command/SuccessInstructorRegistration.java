@@ -6,8 +6,8 @@ import domain.Instructor;
 import domain.Student;
 import domain.User;
 import enums.Roles;
-import service.logic.InstructorServiceImpl;
-import service.logic.UserServiceImpl;
+import service.InstructorServiceImpl;
+import service.UserServiceImpl;
 import util.SessionManager;
 import util.Validation;
 

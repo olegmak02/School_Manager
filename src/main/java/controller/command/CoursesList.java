@@ -4,8 +4,8 @@ import java.sql.SQLException;
 
 import javax.servlet.http.HttpServletRequest;
 
-import service.logic.CourseServiceImpl;
-import service.logic.InstructorServiceImpl;
+import service.CourseServiceImpl;
+import service.InstructorServiceImpl;
 
 public class CoursesList implements Command {
 	private CourseServiceImpl courseService = new CourseServiceImpl();

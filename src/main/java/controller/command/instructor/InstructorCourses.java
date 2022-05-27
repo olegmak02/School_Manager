@@ -13,8 +13,8 @@ import domain.Course;
 import domain.Instructor;
 import domain.Result;
 import domain.Student;
-import service.logic.CourseServiceImpl;
-import service.logic.ResultServiceImpl;
+import service.CourseServiceImpl;
+import service.ResultServiceImpl;
 
 public class InstructorCourses implements Command {
 

@@ -12,9 +12,9 @@ import domain.Assignment;
 import domain.Course;
 import domain.Result;
 import domain.Student;
-import service.logic.AssignmentServiceImpl;
-import service.logic.CourseServiceImpl;
-import service.logic.ResultServiceImpl;
+import service.AssignmentServiceImpl;
+import service.CourseServiceImpl;
+import service.ResultServiceImpl;
 
 public class CoursePage implements Command {
 
