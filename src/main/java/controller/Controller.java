@@ -36,6 +36,15 @@ public class Controller extends HttpServlet {
 		commands.put("/instructor", new InstructorPage());
 		commands.put("/result_course", new CoursePage());
 		commands.put("/instructor_courses", new InstructorCourses());
+		commands.put("/admin", new AdminPage());
+		commands.put("/registration_instructor", (req) -> "/registration_instructor.jsp");
+		commands.put("/success_instructor_registration", new SuccessInstructorRegistration());
+		commands.put("/block", new Block());
+		commands.put("/unblock", new Unblock());
+		commands.put("/create_course", new CreateCourse());
+		commands.put("/all_courses", new CoursesList());
+		commands.put("/edit_course", new EditCourse());
+		commands.put("/delete_course", new DeleteCourse());
     }
 
     @Override
