@@ -41,27 +41,27 @@ public class Controller extends HttpServlet {
     public void init(ServletConfig servletConfig){
     	commands.put("/", (req) -> "/login.jsp");
     	commands.put("/registration", new Registration());
-		commands.put("/login", new Login());
-		commands.put("/student", new StudentPage());
-		commands.put("/my_courses", new MyCourses());
-		commands.put("/courses", new Courses());
-		commands.put("/course", new CoursePage());
-		commands.put("/logout", new Logout());
-		commands.put("/other_courses", new OtherCourses());
-		commands.put("/course_registration", new CourseRegistrationPage());
-		commands.put("/success_registration", new SuccessRegistration());
-		commands.put("/instructor", new InstructorPage());
-		commands.put("/result_course", new CoursePage());
-		commands.put("/instructor_courses", new InstructorCourses());
-		commands.put("/admin", new AdminPage());
-		commands.put("/registration_instructor", (req) -> "/registration_instructor.jsp");
-		commands.put("/success_instructor_registration", new SuccessInstructorRegistration());
-		commands.put("/block", new Block());
-		commands.put("/unblock", new Unblock());
-		commands.put("/create_course", new CreateCourse());
-		commands.put("/all_courses", new CoursesList());
-		commands.put("/edit_course", new EditCourse());
-		commands.put("/delete_course", new DeleteCourse());
+	commands.put("/login", new Login());
+	commands.put("/student", new StudentPage());
+	commands.put("/my_courses", new MyCourses());
+	commands.put("/courses", new Courses());
+	commands.put("/course", new CoursePage());
+	commands.put("/logout", new Logout());
+	commands.put("/other_courses", new OtherCourses());
+	commands.put("/course_registration", new CourseRegistrationPage());
+	commands.put("/success_registration", new SuccessRegistration());
+	commands.put("/instructor", new InstructorPage());
+	commands.put("/result_course", new CoursePage());
+	commands.put("/instructor_courses", new InstructorCourses());
+	commands.put("/admin", new AdminPage());
+	commands.put("/registration_instructor", (req) -> "/registration_instructor.jsp");
+	commands.put("/success_instructor_registration", new SuccessInstructorRegistration());
+	ommands.put("/block", new Block());
+	commands.put("/unblock", new Unblock());
+	commands.put("/create_course", new CreateCourse());
+	commands.put("/all_courses", new CoursesList());
+	commands.put("/edit_course", new EditCourse());
+	commands.put("/delete_course", new DeleteCourse());
     }
 
     @Override
